@@ -1,0 +1,28 @@
+
+.footer-wrap {
+    width: 80%;
+    margin:0 auto;
+}
+.footer-content {
+    width: 25%;
+    margin: 0 auto;
+    text-align:center;
+    padding:20px 30px;
+    line-height: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.footer-content a img {
+    width: 30px;
+    height: 30px;
+}
+#cyl {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#cyl:hover{
+    color: blue;
+}

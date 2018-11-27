@@ -1,0 +1,19 @@
+.best-wrap {
+    background: #bbada0;
+
+    color: white;
+    display:inline-block;
+    width:112.5px;
+    height:50px;
+    text-align:center;
+    border-radius: 5px;
+    position: absolute;
+    right: 0px;
+    top: 23px;
+}
+h3{
+    margin:0px;
+}
+.best-top{
+    opacity: 0.8;
+}

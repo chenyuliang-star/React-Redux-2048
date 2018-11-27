@@ -1,0 +1,131 @@
+.game-box-wrap{
+    width:460px;
+    height:460px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(187, 173, 160);
+    margin-top: 10px;
+    position: relative;
+}
+.game-box-content{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width:100%;
+    height:100%;
+    
+}
+.game-box-item {
+    width: 110px;
+    height: 110px;
+    background: rgba(237, 227, 217, 0.35);
+    border-radius: 5px;
+}
+.game-box-cover {
+    position: absolute;
+    top: 10px;
+    width:460px;
+    height:460px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.cover-item {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    line-height: 110px;
+    text-align:center;
+}
+ 
+
+
+.cover-1-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#F0F0F0;
+}
+.cover-2-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EEEED1;
+}
+.cover-4-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EED5B7;
+}
+.cover-8-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EEE685;
+}
+.cover-16-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EED5D2;
+}
+.cover-32-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EE9A49;
+}
+.cover-64-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EEB422;
+}
+.cover-128-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EEA2AD;
+}
+.cover-256-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EE82EE;
+}
+.cover-512-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EE7942;
+}
+.cover-1024-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EE6A50;
+}
+.cover-2048-item{
+    color:rgb(73, 69, 69);
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight:bold;
+    background-color:#EE3B3B;
+}

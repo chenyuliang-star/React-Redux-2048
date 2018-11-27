@@ -1,28 +1,33 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './Components/header/header.js';
+import Footer from './Components/footer/footer.js';
+import GameBox from './Components/game-box/game-box.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+class App extends React.Component {
+    constructor (props) {
+        super(props);
+    };
+
+   render () {
+       const { currentScore, bestScore, gameMapState, newGameAction, moveUpAction, randomAction,
+        moveDownAction, moveLeftAction, moveRightAction, gameSuccessAction } = this.props;
+       return (
+           <div>
+               <Header currentScore= {  currentScore } 
+               bestScore = { bestScore } 
+               newGameAction = { newGameAction }/>
+               <GameBox gameMapState = { gameMapState } 
+               moveUpAction = { moveUpAction } 
+               randomAction = { randomAction } 
+               moveDownAction = { moveDownAction } 
+               moveLeftAction = { moveLeftAction } 
+               moveRightAction = { moveRightAction } 
+               gameSuccessAction = { gameSuccessAction } />
+               <Footer />
+           </div>
+       );
+   }
 }
 
 export default App;
